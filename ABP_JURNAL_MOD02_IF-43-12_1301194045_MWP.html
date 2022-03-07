@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Jurnal 2</title>
+</head>
+<style>
+    table, tr, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .nama{
+        text-align: center;
+        padding: 8px;
+        font-size: large;
+    }
+    .form{
+        font-weight: bold;
+    }
+    .warna{
+        background-color: blue;
+    }
+    .puzzle, .puzzle tr, .puzzle td{
+        border: 1px solid white;
+    }
+    .puzzle td{
+        height: 40px;
+        width: 40px;
+    }
+</style>
+<body>
+    <p class="nama">
+        PRAKTIKUM 2 : HTML
+    </p>
+    <table>
+        <tr>
+            <td class="nama">
+                <img src="../../../../Working%20files/REVELIN%20ANGGER%20SAPUTRA/MODUL%2002%20-%20ABP%20-%20REG%20-%20JURNAL/aset.png" width="30" height="30" /> <i>[1301194045 - Revelin Angger Saputra]</i>
+            </td>
+            <td class="nama" rowspan="2">
+                <u>SOAL 2 : TABEL</u>
+                <table class="puzzle">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2" class="warna"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2" class="warna"></td>
+                        <td></td>
+                        <td rowspan="2" class="warna"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="warna"></td>
+                        <td></td>
+                        <td class="warna"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="3" class="warna"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="warna"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="nama">
+                    <u class="">SOAL 1 : FORM</u>
+                </p>
+                <ul class="form">
+                    <form action="">
+                        <li>Prodi:
+                            <ol type="1">
+                                <li>
+                                    <input type="radio" name="prodi" id="IF">
+                                    <label for="IF">IF</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="prodi" id="SE">
+                                    <label for="SE">SE</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="prodi" id="IT">
+                                    <label for="IT">IT</label>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>Developer Type:
+                            <ol type="1">
+                                <li>
+                                    <label for="FE">FrontEnd</label>
+                                    <input type="checkbox" name="tipe" id="FE">
+                                </li>
+                                <li>
+                                    <label for="BE">BackEnd</label>
+                                    <input type="checkbox" name="tipe" id="BE">
+                                </li>
+                            </ol>
+                        </li>
+                        <p style="text-align: center; margin-left: -40px;" >
+                            <input type="reset">
+                        </p>
+                    </form>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p class="nama">
+                    <u>
+                        SOAL 3 :LINK
+                    </u> <br>
+                    <a href="https://informatics.labs.telkomuniversity.ac.id/">GO TO TITLE</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
